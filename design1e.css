@@ -1,0 +1,31 @@
+
+body {
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+@media (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
